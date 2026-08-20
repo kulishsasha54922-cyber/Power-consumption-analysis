@@ -16,7 +16,7 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ### All three zones follow the same rhythm in January
 
-Looking at January hour by hour, the same repeated rise and fall appears in all three zones. Zone 1 has the highest January average at 31.0k, followed by Zone 2 at 19.4k and Zone 3 at 17.7k. The zones also move closely together: the correlations between their hourly series range from 0.87 to 0.95. This suggests that they are responding to many of the same daily routines and weather conditions, even though their overall consumption levels are different.
+Looking at January hour by hour, the same daily pattern repeats across all three zones: consumption falls overnight, rises during the day, and peaks in the evening. The overall consumption levels are different, however. Zone 1 records the highest January average at 31.0k, followed by Zone 2 at 19.4k and Zone 3 at 17.7k. The zones also move closely together, with correlations between their hourly series ranging from 0.87 to 0.95. This suggests that they respond to many of the same daily routines and weather conditions.
 
 ![Hourly electricity consumption by zone in January 2017](assets/january-zone-profile.png)
 
@@ -42,7 +42,7 @@ The daily chart shows the same pattern in more detail. The highest daily average
 
 Electricity use changes a lot during the day. It falls overnight and reaches its lowest point at 06:00 (50.2k). From there it rises through the morning, stays fairly steady in the afternoon, and climbs sharply after 17:00.
 
-The highest average is at 20:00 (98.0k). The evening peak is almost twice as high as the lowest point of the day. The period from 19:00 to 21:00 is the most important one to watch when thinking about peak demand.
+The highest average is at 20:00 (98.0k). That is about 95.3% higher than the morning minimum, so the evening peak is almost twice as high as the lowest point of the day. The period from 19:00 to 21:00 is the most important one to watch when thinking about peak demand.
 
 ![Average total power consumption by hour of day](assets/hourly-profile.png)
 
@@ -120,3 +120,6 @@ On Windows, activate the environment with `.venv\Scripts\activate`.
 
 Python, Jupyter Notebook, pandas, NumPy, Matplotlib, and Seaborn.
 
+## Dataset citation
+
+Salam, A. & El Hibaoui, A. (2018). *Power Consumption of Tetouan City*. UCI Machine Learning Repository. https://doi.org/10.24432/C5B034
