@@ -120,6 +120,3 @@ On Windows, activate the environment with `.venv\Scripts\activate`.
 
 Python, Jupyter Notebook, pandas, NumPy, Matplotlib, and Seaborn.
 
-## Dataset citation
-
-Salam, A. & El Hibaoui, A. (2018). *Power Consumption of Tetouan City*. UCI Machine Learning Repository. https://doi.org/10.24432/C5B034
