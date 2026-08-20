@@ -30,6 +30,14 @@ The daily chart shows the same pattern in more detail. The highest daily average
 
 ![Daily average total power consumption](assets/daily-consumption.png)
 
+### All three zones follow the same rhythm in January
+
+Looking at January hour by hour, the same repeated rise and fall appears in all three zones. Zone 1 has the highest January average at 31.0k, followed by Zone 2 at 19.4k and Zone 3 at 17.7k. The zones also move closely together: the correlations between their hourly series range from 0.87 to 0.95. This suggests that they are responding to many of the same daily routines and weather conditions, even though their overall consumption levels are different.
+
+![Hourly electricity consumption by zone in January 2017](assets/january-zone-profile.png)
+
+The timing is not exactly the same in every zone. Zone 1 and Zone 2 reach their lowest average at 04:00 and peak at 18:00. Zone 3 starts later, with its minimum at 08:00 and its peak at 20:00. When the zones are combined, January demand is lowest at 04:00 and highest at 19:00. The chart also shows an unusual dip around the middle of the month and a smaller drop near 29 January.
+
 ### Most electricity is used in the evening
 
 Electricity use changes a lot during the day. It falls overnight and reaches its lowest point at 06:00 (50.2k). From there it rises through the morning, stays fairly steady in the afternoon, and climbs sharply after 17:00.
@@ -45,6 +53,14 @@ The overall difference between weekdays and weekends is not very large. Average 
 The main difference appears in the morning. At 08:00, weekday consumption is about 11.3% higher than at the same time on weekends. A likely explanation is that daily activity starts later on Saturdays and Sundays.
 
 ![Weekday versus weekend hourly power consumption](assets/weekday-vs-weekend.png)
+
+### The evening peak appears on every day of the week
+
+The heatmap makes the daily pattern easier to compare across the whole week. Every day reaches its highest average at 20:00. The highest single combination is Thursday at 20:00, with an average of 99.6k. The lowest is Sunday at 07:00, with 45.0k, so the highest point is about 121.5% above the lowest one.
+
+![Power consumption by day of week and hour](assets/weekday-hour-heatmap.png)
+
+Weekend mornings are noticeably lighter than weekday mornings, especially between 05:00 and 08:00. The difference becomes much smaller in the evening: average demand from 19:00 to 21:00 is 96.8k on weekdays and 94.4k on weekends. This shows that the evening peak is a consistent feature of the system, not just a weekday effect.
 
 ### Zone 1 uses noticeably more electricity
 
@@ -87,8 +103,23 @@ Download the CSV file, rename it to `powerconsumption.csv`, and save it as:
 data/powerconsumption.csv
 ```
 
+The raw dataset is excluded from Git because it can be downloaded from the original source.
+
+## Run locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook powerconsumption.ipynb
+```
+
+On Windows, activate the environment with `.venv\Scripts\activate`.
 
 ## Technologies
 
-Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.
+Python, Jupyter Notebook, pandas, NumPy, Matplotlib, and Seaborn.
 
+## Dataset citation
+
+Salam, A. & El Hibaoui, A. (2018). *Power Consumption of Tetouan City*. UCI Machine Learning Repository. https://doi.org/10.24432/C5B034
