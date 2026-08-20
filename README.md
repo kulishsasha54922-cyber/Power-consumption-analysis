@@ -87,23 +87,8 @@ Download the CSV file, rename it to `powerconsumption.csv`, and save it as:
 data/powerconsumption.csv
 ```
 
-The raw dataset is excluded from Git because it can be downloaded from the original source.
-
-## Run locally
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook powerconsumption.ipynb
-```
-
-On Windows, activate the environment with `.venv\Scripts\activate`.
 
 ## Technologies
 
-Python, Jupyter Notebook, pandas, NumPy, Matplotlib, and Seaborn.
+Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, and Seaborn.
 
-## Dataset citation
-
-Salam, A. & El Hibaoui, A. (2018). *Power Consumption of Tetouan City*. UCI Machine Learning Repository. https://doi.org/10.24432/C5B034
