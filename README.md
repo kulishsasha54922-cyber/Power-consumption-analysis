@@ -16,33 +16,33 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ### Data quality
 
-Before looking for patterns, I checked the data for gaps and repeated rows. The dataset contains **52,416 readings**, recorded every ten minutes throughout 2017. There are **no missing values and no duplicate rows**, so I could use the full dataset for the hourly, daily, and monthly comparisons.
+Before looking for patterns, I checked the data for gaps and repeated rows. The dataset contains 52,416 readings, recorded every ten minutes throughout 2017. There are no missing values and no duplicate rows, so I could use the full dataset for the hourly, daily, and monthly comparisons.
 
-### Strong summer seasonality 
+### Strong summer seasonality
 
-The clearest pattern is the rise in electricity use during the summer. Average total consumption goes from about **66.6k in March** to **88.2k in July**, which is the highest monthly result. July is roughly **38.3% higher than December** (63.8k), the lowest month in the dataset.
+The clearest pattern is the rise in electricity use during the summer. Average total consumption goes from about 66.6k in March to 88.2k in July, which is the highest monthly result. July is roughly 38.3% higher than December (63.8k), the lowest month in the dataset.
 
-What stood out to me was how quickly the change happens: consumption rises by **16.5% between June and July**, stays high in August, and then drops by **20.1% in September**.
+What stood out to me was how quickly the change happens: consumption rises by 16.5% between June and July, stays high in August, and then drops by 20.1% in September.
 
 ![Average total power consumption by month](assets/monthly-consumption.png)
 
-The daily chart shows the same pattern in more detail. The highest daily average appears on **25 July** (98.0k), while the lowest is on **1 December** (58.6k). There are also regular dips throughout the year, which look like a repeating weekly pattern rather than random isolated drops.
+The daily chart shows the same pattern in more detail. The highest daily average appears on 25 July (98.0k), while the lowest is on 1 December (58.6k). There are also regular dips throughout the year, which look like a repeating weekly pattern rather than random isolated drops.
 
 ![Daily average total power consumption](assets/daily-consumption.png)
 
 ### Most electricity is used in the evening
 
-Electricity use changes a lot during the day. It falls overnight and reaches its lowest point at **06:00** (50.2k). From there it rises through the morning, stays fairly steady in the afternoon, and climbs sharply after 17:00.
+Electricity use changes a lot during the day. It falls overnight and reaches its lowest point at 06:00 (50.2k). From there it rises through the morning, stays fairly steady in the afternoon, and climbs sharply after 17:00.
 
-The highest average is at **20:00** (98.0k). That is about **95.3% higher than the morning minimum**, so the evening peak is almost twice as high as the lowest point of the day. The period from 19:00 to 21:00 is the most important one to watch when thinking about peak demand.
+The highest average is at 20:00 (98.0k). That is about 95.3% higher than the morning minimum, so the evening peak is almost twice as high as the lowest point of the day. The period from 19:00 to 21:00 is the most important one to watch when thinking about peak demand.
 
 ![Average total power consumption by hour of day](assets/hourly-profile.png)
 
 ### Weekday and weekend patterns are more similar than I expected
 
-The overall difference between weekdays and weekends is not very large. Average consumption is **72.0k on weekdays** and **69.3k on weekends**, a difference of about **3.9%**. Overnight, the two lines are almost the same, and both reach their highest point at 20:00.
+The overall difference between weekdays and weekends is not very large. Average consumption is 72.0k on weekdays and 69.3k on weekends, a difference of about 3.9%. Overnight, the two lines are almost the same, and both reach their highest point at 20:00.
 
-The main difference appears in the morning. At **08:00**, weekday consumption is about **11.3% higher** than at the same time on weekends. A likely explanation is that daily activity starts later on Saturdays and Sundays.
+The main difference appears in the morning. At 08:00, weekday consumption is about 11.3% higher than at the same time on weekends. A likely explanation is that daily activity starts later on Saturdays and Sundays.
 
 ![Weekday versus weekend hourly power consumption](assets/weekday-vs-weekend.png)
 
@@ -50,17 +50,17 @@ The main difference appears in the morning. At **08:00**, weekday consumption is
 
 Zone 1 stands out clearly when the three areas are compared. The average results are:
 
-- **Zone 1:** 32.3k, or **45.4%** of average total consumption;
-- **Zone 2:** 21.0k, or **29.5%**;
-- **Zone 3:** 17.8k, or **25.0%**.
+- Zone 1: 32.3k, or 45.4% of average total consumption;
+- Zone 2: 21.0k, or 29.5%;
+- Zone 3: 17.8k, or 25.0%.
 
-This means that Zone 1 uses about **53.7% more electricity than Zone 2** and **81.4% more than Zone 3**. It accounts for almost half of the combined average, so it would be the first area I would examine in a more detailed efficiency analysis.
+This means that Zone 1 uses about 53.7% more electricity than Zone 2 and 81.4% more than Zone 3. It accounts for almost half of the combined average, so it would be the first area I would examine in a more detailed efficiency analysis.
 
 ![Average power consumption by zone](assets/zone-comparison.png)
 
 ### Temperature is relevant, does not explain demand alone
 
-Temperature and total consumption have a **positive correlation of 0.49**. In general, electricity use tends to be higher on warmer days, which matches the summer peak seen earlier.
+Temperature and total consumption have a positive correlation of 0.49. In general, electricity use tends to be higher on warmer days, which matches the summer peak seen earlier.
 
 At the same time, the points on the chart are quite spread out. Similar temperatures can still be linked to very different levels of consumption. So temperature clearly matters, but it does not explain everything by itself. Time of day, weekday or weekend activity, season, and other weather conditions are also likely to play a role.
 
