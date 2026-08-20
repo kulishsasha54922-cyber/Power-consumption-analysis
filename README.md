@@ -14,11 +14,11 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ## Key findings
 
-### First, a quick data check
+### Data quality
 
 Before looking for patterns, I checked the data for gaps and repeated rows. The dataset contains **52,416 readings**, recorded every ten minutes throughout 2017. There are **no missing values and no duplicate rows**, so I could use the full dataset for the hourly, daily, and monthly comparisons.
 
-### The biggest seasonal change happens in summer
+### Strong summer seasonality 
 
 The clearest pattern is the rise in electricity use during the summer. Average total consumption goes from about **66.6k in March** to **88.2k in July**, which is the highest monthly result. July is roughly **38.3% higher than December** (63.8k), the lowest month in the dataset.
 
@@ -58,7 +58,7 @@ This means that Zone 1 uses about **53.7% more electricity than Zone 2** and **8
 
 ![Average power consumption by zone](assets/zone-comparison.png)
 
-### Temperature matters, but it is only part of the story
+### Temperature is relevant, does not explain demand alone
 
 Temperature and total consumption have a **positive correlation of 0.49**. In general, electricity use tends to be higher on warmer days, which matches the summer peak seen earlier.
 
