@@ -4,7 +4,7 @@ Exploratory data analysis of electricity consumption in three distribution zones
 
 ## Project overview
 
-This project explores electricity demand recorded every 10 minutes during 2017. The analysis compares the three zones and examines:
+This project explores electricity demand during 2017. The analysis compares the three zones and examines:
 
 - daily and monthly consumption patterns;
 - hourly demand and peak hours;
@@ -18,16 +18,6 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 - Average demand peaks at 20:00 and reaches its minimum at 06:00.
 - Zone 1 has the highest average consumption, followed by Zones 2 and 3.
 - Temperature has a moderate positive correlation with total consumption (`r = 0.49`).
-
-## Repository structure
-
-```text
-.
-├── powerconsumption.ipynb  # Analysis, visualizations, and findings
-├── requirements.txt        # Python dependencies
-├── .gitignore
-└── README.md
-```
 
 ## Dataset
 
