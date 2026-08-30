@@ -39,10 +39,9 @@ The daily chart shows the same pattern in more detail. The highest daily average
 
 ### Most electricity is used in the evening
 
-Electricity use changes a lot during the day. It falls overnight and reaches its lowest point at 06:00 (50.2k). From there it rises through the morning, stays fairly steady in the afternoon, and climbs sharply after 17:00.
+Electricity consumption varies throughout the day. It drops overnight and reaches its lowest point around 06:00. From there, it gradually increases during the morning, stays relatively stable in the afternoon, and then rises noticeably after 17:00.
 
-The highest average is at 20:00 (98.0k). That is about 95.3% higher than the morning minimum, so the evening peak is almost twice as high as the lowest point of the day. The period from 19:00 to 21:00 is the most important one to watch when thinking about peak demand.
-
+Consumption reaches its highest level around 20:00. The evening hours, especially 19:00–21:00, stand out as the main peak-demand period.
 ![Average total power consumption by hour of day](assets/hourly-profile.png)
 
 ### Weekday and weekend patterns are more similar than I expected
