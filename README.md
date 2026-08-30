@@ -16,11 +16,7 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ### All three zones follow the same rhythm in January
 
-Looking at January hour by hour, the same daily pattern repeats across all three zones: consumption falls overnight, rises during the day, and peaks in the evening. The overall consumption levels are different, however. Zone 1 records the highest January average at 31.0k, followed by Zone 2 at 19.4k and Zone 3 at 17.7k. The zones also move closely together, with correlations between their hourly series ranging from 0.87 to 0.95. This suggests that they respond to many of the same daily routines and weather conditions.
-
-![Hourly electricity consumption by zone in January 2017](assets/january-zone-profile.png)
-
-The timing is not exactly the same in every zone. Zone 1 and Zone 2 reach their lowest average at 04:00 and peak at 18:00. Zone 3 starts later, with its minimum at 08:00 and its peak at 20:00. When the zones are combined, January demand is lowest at 04:00 and highest at 19:00. The chart also shows an unusual dip around the middle of the month and a smaller drop near 29 January.
+Zone 1 has the highest average electricity consumption among the three zones. All three zones show clear and recurring daily consumption patterns throughout January, with noticeable fluctuations in demand.
 
 ### Data quality
 
