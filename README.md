@@ -14,14 +14,16 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ## Key findings
 
+### Data quality
+
+Before looking for patterns, I checked the data for gaps and repeated rows. The dataset contains 52,416 readings, recorded every ten minutes throughout 2017. There are no missing values and no duplicate rows, so I could use the full dataset for the hourly, daily, and monthly comparisons.
+
+
 ### All three zones follow the same rhythm in January
 
 Zone 1 has the highest average electricity consumption among the three zones. All three zones show clear and recurring daily consumption patterns throughout January, with noticeable fluctuations in demand. 
 ![January hourly grafic](assets/january-zone-profile.png)
 
-### Data quality
-
-Before looking for patterns, I checked the data for gaps and repeated rows. The dataset contains 52,416 readings, recorded every ten minutes throughout 2017. There are no missing values and no duplicate rows, so I could use the full dataset for the hourly, daily, and monthly comparisons.
 
 ### Strong summer seasonality
 
