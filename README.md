@@ -16,7 +16,7 @@ This project explores electricity demand recorded every 10 minutes during 2017. 
 
 ### All three zones follow the same rhythm in January
 
-Zone 1 has the highest average electricity consumption among the three zones. All three zones show clear and recurring daily consumption patterns throughout January, with noticeable fluctuations in demand.
+Zone 1 has the highest average electricity consumption among the three zones. All three zones show clear and recurring daily consumption patterns throughout January, with noticeable fluctuations in demand. (assets/january-zone-profile.png)
 
 ### Data quality
 
