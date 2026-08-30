@@ -48,30 +48,24 @@ Consumption reaches its highest level around 20:00. The evening hours, especiall
 
 ### Weekday and weekend patterns are more similar than I expected
 
-The overall difference between weekdays and weekends is not very large. Average consumption is 72.0k on weekdays and 69.3k on weekends, a difference of about 3.9%. Overnight, the two lines are almost the same, and both reach their highest point at 20:00.
+There is not a big difference between weekdays and weekends overall. Average consumption is slightly higher on weekdays, while both follow a very similar pattern overnight and reach their highest point around 20:00.
 
-The main difference appears in the morning. At 08:00, weekday consumption is about 11.3% higher than at the same time on weekends. A likely explanation is that daily activity starts later on Saturdays and Sundays.
+The biggest difference can be seen in the morning. At around 08:00, electricity use is noticeably higher on weekdays than on weekends. This could be because people tend to start their day earlier during the working week.
 
 ![Weekday versus weekend hourly power consumption](assets/weekday-vs-weekend.png)
 
 ### The evening peak appears on every day of the week
 
-The heatmap makes the daily pattern easier to compare across the whole week. Every day reaches its highest average at 20:00. The highest single combination is Thursday at 20:00, with an average of 99.6k. The lowest is Sunday at 07:00, with 45.0k, so the highest point is about 121.5% above the lowest one.
+The heatmap makes it easier to see how electricity consumption changes across different days and hours. The highest average consumption occurs at 20:00 on every day of the week, with Thursday at 20:00 showing the highest value at 99.6k.
 
 ![Power consumption by day of week and hour](assets/weekday-hour-heatmap.png)
 
-Weekend mornings are noticeably lighter than weekday mornings, especially between 05:00 and 08:00. The difference becomes much smaller in the evening: average demand from 19:00 to 21:00 is 96.8k on weekdays and 94.4k on weekends. This shows that the evening peak is a consistent feature of the system, not just a weekday effect.
+The lowest point is on Sunday at 07:00, at 45.0k. Weekend mornings are generally quieter than weekday mornings, especially between 05:00 and 08:00. However, this difference becomes much smaller in the evening, when consumption stays high on both weekdays and weekends. This suggests that the evening peak is a consistent pattern throughout the week, rather than something driven only by working days.
 
 ### Zone 1 uses noticeably more electricity
+Zone 1 clearly has the highest electricity consumption among the three zones. Its average consumption is around 32.3k, compared with 21.0k for Zone 2 and 17.8k for Zone 3.
 
-Zone 1 stands out clearly when the three areas are compared. The average results are:
-
-- Zone 1: 32.3k, or 45.4% of average total consumption;
-- Zone 2: 21.0k, or 29.5%;
-- Zone 3: 17.8k, or 25.0%.
-
-This means that Zone 1 uses about 53.7% more electricity than Zone 2 and 81.4% more than Zone 3. It accounts for almost half of the combined average, so it would be the first area I would examine in a more detailed efficiency analysis.
-
+This means Zone 1 accounts for almost half of the total average consumption and uses noticeably more electricity than the other two zones. Because of this, Zone 1 would be the first area to look at when investigating opportunities to improve energy efficiency.
 ![Average power consumption by zone](assets/zone-comparison.png)
 
 ### Temperature is relevant, does not explain demand alone
