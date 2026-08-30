@@ -27,9 +27,9 @@ Zone 1 has the highest average electricity consumption among the three zones. Al
 
 ### Strong summer seasonality
 
-The clearest pattern is the rise in electricity use during the summer. Average total consumption goes from about 66.6k in March to 88.2k in July, which is the highest monthly result. July is roughly 38.3% higher than December (63.8k), the lowest month in the dataset.
+The clearest pattern is the increase in electricity consumption during the summer. Average total consumption rises from around 66.6k in March to 88.2k in July, which is the highest monthly level. December has the lowest average consumption at around 63.8k.
 
-What stood out to me was how quickly the change happens: consumption rises by 16.5% between June and July, stays high in August, and then drops by 20.1% in September.
+What stands out is how quickly consumption changes around the summer peak. It increases noticeably from June to July, remains high in August, and then drops again in September.
 
 ![Average total power consumption by month](assets/monthly-consumption.png)
 
