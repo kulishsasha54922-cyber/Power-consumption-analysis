@@ -33,7 +33,9 @@ What stands out is how quickly consumption changes around the summer peak. It in
 
 ![Average total power consumption by month](assets/monthly-consumption.png)
 
-The daily chart shows the same pattern in more detail. The highest daily average appears on 25 July (98.0k), while the lowest is on 1 December (58.6k). There are also regular dips throughout the year, which look like a repeating weekly pattern rather than random isolated drops.
+The daily chart gives a closer look at the same pattern. The highest average consumption is seen on 25 July, while the lowest occurs on 1 December.
+
+Another thing that stands out is the regular dips throughout the year. They appear at similar intervals, suggesting a repeating weekly pattern rather than random changes in consumption.
 
 ![Daily average total power consumption](assets/daily-consumption.png)
 
